@@ -23,7 +23,7 @@ var toStr = require('safe-tostring-pmb'),
   noes = new TypeError('Oh noes!'),
   iter = Symbol.iterator;
 
-  eq(toStr(),       'undefined');
+eq(toStr(),       'undefined');
 eq(toStr(null),   'null');
 eq(toStr(23.42),  '23.42');
 eq(toStr('foo'),  'foo');
