@@ -1,5 +1,5 @@
 { "name": "safe-tostring-pmb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "String(x) with fallback to Object.prototype.toString.call(x)",
   "keywords": [ "stringify", "toString" ],
 
